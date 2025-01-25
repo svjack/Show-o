@@ -21,6 +21,18 @@ Zhijie Chen<sup>2</sup>&nbsp;
   
 </div>
 
+```bash
+sudo apt-get update && sudo apt-get install cbm ffmpeg git-lfs
+
+conda create -n py310 python=3.10 && conda activate py310
+pip install ipykernel
+python -m ipykernel install --user --name py310 --display-name "py310"
+
+git clone https://huggingface.co/spaces/svjack/Show-o && cd Show-o
+pip install -r requirements.txt
+python app.py
+```
+
 ## News
 * **[2025-01-23]** **Show-o has been accepted to ICLR 2025.**
 * **[2024-10-15]** Update Arxiv paper to include new features and experimental results.
