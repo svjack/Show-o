@@ -33,6 +33,13 @@ pip install -r requirements.txt
 python app.py
 ```
 
+-  Text-guided Extrapolation
+
+![大圣](https://github.com/user-attachments/assets/d8fd4029-70d8-40f8-9c0b-12a9b16d4de9)
+
+![image (25)](https://github.com/user-attachments/assets/546885f4-fb2d-44ea-b7de-738ddfea341d)
+
+
 ## News
 * **[2025-01-23]** **Show-o has been accepted to ICLR 2025.**
 * **[2024-10-15]** Update Arxiv paper to include new features and experimental results.
